@@ -15,13 +15,33 @@
 */
 
 
-
 /* Hidden Objects */
-
-
-
-
-
-
+/* All elements listed within this small list will not be displayed while trying to print out this website */
+nav,
+footer,
+article {
+    display: none;
+}
 
 /* Comic Book Sheet Styles */
+/* While printing the section element is being centered while all of the other images going down from size 1=4 are given their own amount of width to take up the amount of the paper. */
+section#sheet {
+    width: 6in;
+    margin: 0 auto;
+}
+
+img.size1 {
+    width: 5in;
+}
+
+img.size2 {
+    width: 3in;
+}
+
+img.size3 {
+    width: 2in;
+}
+
+img.size4 {
+    width: 1.5in;
+}
